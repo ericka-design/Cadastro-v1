@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App'; // Importação correta para exportação padrão
+import App from './App';
 
 // Obtém a referência ao elemento root
 const rootElement = document.getElementById('root');
