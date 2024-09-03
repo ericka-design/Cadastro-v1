@@ -1,0 +1,66 @@
+# Dependências de pacotes
+node_modules/
+.pnp/
+.pnp.js
+
+# Diretórios de build e produção
+build/
+dist/
+
+# Test coverage
+coverage/
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Configurações de IDEs e editores
+.DS_Store
+.idea/
+.vscode/
+.vscode-test/
+
+# Logs de depuração
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Configurações de Jest e relatórios
+jest.config.js
+jest.setup.js
+*.snap
+
+# Arquivos de cache e relatórios de performance
+.cache/
+.parcel-cache/
+
+# Arquivos temporários
+*.tmp
+*.swp
+*.lock
+
+# Relatórios de teste de TypeScript
+*.tsbuildinfo
+
+# Configurações específicas para MacOS
+._*
+.Spotlight-V100
+.Trashes
+
+# Ignorar pastas específicas do Windows
+/Ambiente de Impressão/
+/Ambiente de Rede/
+/Configurações Locais/
+/Cookies/
+/Dados de Aplicativos/
+/Menu Iniciar/
+/Meus Documentos/
+/Modelos/
+/Recent/
+/SendTo/
+/NTUSER.DAT*
+/OneDrive/
+/eventos/
