@@ -1,17 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
+import { App } from './App';  // Importação nomeada
 
 // Obtém a referência ao elemento root
-const rootElement = document.getElementById('root');
+const rootElement = document.getElementById('root') as HTMLElement;
+const root = ReactDOM.createRoot(rootElement);
 
-if (rootElement) {
-  const root = ReactDOM.createRoot(rootElement);
-  root.render(
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-  );
-} else {
-  console.error('Elemento root não encontrado.');
-}
+// Renderiza o componente App
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);

@@ -1,13 +1,11 @@
-import React from 'react';
+import { BrowserRouter } from "react-router-dom";
+import { AppRoutes } from "./routes";
 
-// Defina o componente App
-const App = () => {
+
+export const App = () => {
   return (
-    <div>
-      <h1>ericka</h1>
-    </div>
-  );
-};
-
-// Exporte o componente como padrão
-export default App;
+    <BrowserRouter>
+      <AppRoutes/>
+    </BrowserRouter>
+  )
+}
